@@ -1,13 +1,16 @@
 # Decode the Morse code, for real
+
 [View Kata](https://www.codewars.com/kata/decode-the-morse-code-for-real)
 
-##### Part of Series 3/3  
+## Part of Series 3/3  
+
 This kata is part of a series on the Morse code. Make sure you solve the [first part](https://www.codewars.com/kata/decode-the-morse-code) and the [second part](https://www.codewars.com/kata/decode-the-morse-code-advanced) and then reuse and advance your code to solve this one.
 
 In this kata you have to deal with "real-life" scenarios, when Morse code transmission speed slightly varies throughout the message as it is sent by a non-perfect human operator. Also the sampling frequency may not be a multiple of the length of a typical "dot".
 
 For example, the message `HEY JUDE`, that is `···· · −·−−   ·−−− ··− −·· ·` may actually be received as follows:
-```
+
+```bin
 0000000011011010011100000110000001111110100111110011111100000000000111011111111011111011111000000101100011111100000111110011101100000100000
 ```
 
@@ -26,9 +29,9 @@ That said, your task is to implement two functions:
 
 **NOTE:** For coding purposes you have to use ASCII characters . and -, not Unicode characters.
 
-
 The Morse code table is preloaded for you as `MORSE_CODE` dictionary, feel free to use it. For C, the function `morse_code` acts like the dictionary. For C++ and Scala, a map is used. For C#, it's called `Preloaded.MORSE_CODE`. For Racket, a hash called `MORSE-CODE` is used.
-```
+
+```racket
 (hash-ref MORSE-CODE "".-.") ; returns "C"
 ```
 

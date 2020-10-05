@@ -1,6 +1,5 @@
 # Codewars solutions
 
+[View website](https://www.codewars.com)  
+
 This repo contains my solutions for codewars katas
-
-
-https://www.codewars.com/kata/insane-coloured-triangles
