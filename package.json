@@ -1,0 +1,27 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "[View website](https://www.codewars.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leocello/codewars.git"
+  },
+  "keywords": [
+    "codewars",
+    "kata",
+    "solutions"
+  ],
+  "author": "Leonardo Oberle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leocello/codewars/issues"
+  },
+  "homepage": "https://github.com/leocello/codewars#readme",
+  "dependencies": {
+    "jest": "^26.5.3"
+  }
+}
